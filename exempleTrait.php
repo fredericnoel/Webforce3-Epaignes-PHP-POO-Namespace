@@ -26,3 +26,9 @@ class Velo
 {
     use DemoTrait;
 }
+
+$voiture = new Voiture();
+$moto = new Velo();
+
+$voiture->testTrait();
+$moto->testTrait();
