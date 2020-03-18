@@ -7,4 +7,12 @@
 
 trait DemoTrait
 {
+    /* On écrit une méthode toute simple
+     * Cette méthode sera utilisable partout
+     * */
+
+    public function testTrait()
+    {
+        echo "J'adoooore ce que vous faisez";
+    }
 }
