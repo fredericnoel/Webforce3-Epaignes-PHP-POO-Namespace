@@ -16,3 +16,13 @@ trait DemoTrait
         echo "J'adoooore ce que vous faisez";
     }
 }
+
+class Voiture
+{
+    use DemoTrait;
+}
+
+class Velo
+{
+    use DemoTrait;
+}
